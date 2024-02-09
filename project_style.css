@@ -1,0 +1,66 @@
+@font-face {
+  font-family: 'PressStart2P';
+  src: url('./fonts/PressStart2P-Regular.ttf') format('truetype');
+}
+
+body{
+  background: linear-gradient(#7B68EE, #FFB6C1) fixed;
+  font-family: 'PressStart2P';
+}
+
+.floating-button {
+  text-decoration: none;
+  display: inline-block;
+  width: 240px;
+  height: 100px;
+  line-height: 95px;
+  border-radius: 45px;
+  margin: 10px 80px;
+  font-size: 130%;
+  font-weight:50px;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 3px;
+  font-weight: 600;
+  color: white;
+  background: #9932CC;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+  transition: .3s;
+}
+.floating-button:hover {
+  background: #DA70D6;
+  box-shadow: 0 15px 20px rgba(75, 0, 130);
+  color: white;
+  transform: translateY(-7px);
+}
+
+h1{
+  text-transform: uppercase ;
+}
+h3{
+  text-align: center;
+  display: flex;
+  align-content: end;
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.knopki{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 500px;
+}
+
+.main1{
+  display: flex;
+  align-items: flex-end;
+  align-content: end;
+  height: 250px;
+}
+
